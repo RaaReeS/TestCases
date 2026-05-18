@@ -21,11 +21,11 @@ jobs:
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
-      - name: Configurar Java 25
+      - name: Configurar Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 25
+          java-version: ${{ matrix.java }}
           cache: maven
 
       - name: Ejecutar pruebas Maven

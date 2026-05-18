@@ -1,4 +1,4 @@
-﻿package test;
+package test;
 
 /**
  * Ejercicio de pruebas unitarias sobre la clase Usuario.

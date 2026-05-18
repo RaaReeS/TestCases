@@ -30,3 +30,9 @@ jobs:
 
       - name: Ejecutar pruebas Maven
         run: mvn clean test
+
+      - name: Ejecutar pruebas Maven
+        run: mvn clean test
+
+      - name: Ejecutar verify
+        run: mvn verify
